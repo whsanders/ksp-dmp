@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  server:
+    build:
+      args:
+        version: v0.2.5.4
+      context: .
+    image: ksp_dmp_server
