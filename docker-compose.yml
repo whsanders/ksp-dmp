@@ -7,3 +7,10 @@ services:
         version: v0.2.5.4
       context: .
     image: ksp_dmp_server
+    ports:
+      - 6702:6702
+    volumes:
+      - ./data/Config:/DMPServer/Config
+      - ./data/Plugins:/DMPServer/Plugins
+      - ./data/Universe:/DMPServer/Universe
+      - ./data/logs:/DMPServer/logs
