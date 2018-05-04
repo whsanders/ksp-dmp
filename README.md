@@ -6,4 +6,8 @@ Containerized DarkMultiPlayer - a Kerbal Space Program multiplayer mod
 
 ## Start with terminal
 `docker-compose run server`
+
 `/help` displays available commands.
+
+## Server status
+`http://<server>:6703`

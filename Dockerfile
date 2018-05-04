@@ -8,6 +8,6 @@ RUN apt-get update && \
     unzip DMPServer.zip && \
     rm -f DMPServer.zip
 
-EXPOSE 6702
+EXPOSE 6702 6703
 
 ENTRYPOINT ["mono", "/DMPServer/DMPServer.exe"]

@@ -9,6 +9,7 @@ services:
     image: ksp_dmp_server
     ports:
       - 6702:6702
+      - 6703:6703
     volumes:
       - ./data/Config:/DMPServer/Config
       - ./data/Plugins:/DMPServer/Plugins

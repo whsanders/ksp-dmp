@@ -82,7 +82,7 @@ screenshotHeight=720
 cheats=True
 
 # httpPort - HTTP port for server status. 0 = Disabled
-httpPort=0
+httpPort=6703
 
 # serverName - Name of the server.
 serverName=DMP Server
