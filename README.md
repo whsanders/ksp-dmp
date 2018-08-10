@@ -11,3 +11,6 @@ Containerized DarkMultiPlayer - a Kerbal Space Program multiplayer mod
 
 ## Server status
 `http://<server>:6703`
+
+# Update DMP Server (requires server restart to take effect)
+`docker exec <container> mono DMPUpdater.exe`
